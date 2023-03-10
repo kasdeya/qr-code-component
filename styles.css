@@ -26,55 +26,38 @@ body {
 
 .container {
   background-color: var(--white);
-  width: 28rem;
+  width: 20rem;
   margin: auto;
-  padding: 1.5rem;
-  border-radius: 1.5rem;
+  padding: 16px;
+  border-radius: 20px;
+  height: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contents {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
-  gap: 1rem;
+  gap: 15px;
 }
 
 .qr {
   width: 100%;
   object-fit: contain;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
+  border-radius: 10px;
+  margin-bottom: 11px;
 }
 
 .title {
   color: var(--dark-blue);
+  font-size: 22px;
   font-weight: 700;
   width: 90%;
   margin: auto;
 }
 
 .text {
-  font-size: 1.3rem;
   font-weight: 400;
   color: var(--grayish-blue);
   width: 90%;
   margin: auto;
-}
-
-@media (max-width: 400px) {
-  .container {
-    width: 20rem;
-    padding: 1.1rem;
-  }
-
-  .contents {
-  }
-
-  .title {
-    font-size: 1.4rem;
-  }
-
-  .text {
-    font-size: 0.95rem;
-  }
 }
